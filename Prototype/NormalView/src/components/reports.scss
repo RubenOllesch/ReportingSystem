@@ -1,0 +1,23 @@
+#tabs {
+    display: flex;
+    height: 30px;
+}
+
+.tabElement {
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: all .3s;
+}
+
+.tabElement:hover {
+    background-color: #e0e0e0;
+}
+
+#isActive {
+    background-color: white;
+}
+
+.button:not(.button--disabled):hover {
+    background-color: #448a37 !important;
+}
